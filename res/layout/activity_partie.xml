@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/layout_general"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:weightSum="10">
+	
+    <LinearLayout
+        android:id="@+id/layout_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="4">
+        
+        <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/Recommencer" />
+        
+        <LinearLayout
+	        android:id="@+id/layout_difficulte"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:orientation="horizontal">
+	        
+	        <CheckBox 
+	            android:id="@+id/normal"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/normal"
+	        	android:checked="true"
+	        	/>
+	        
+	        <CheckBox 
+	            android:id="@+id/Expert"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/difficile" />
+	        
+		</LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/grille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="5">
+    </LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+		
+        <TextView
+            android:id="@+id/nameJoueurRond"
+            android:layout_width="wrap_content"
+        	android:layout_height="20dp"
+        	android:layout_marginRight="10dp"
+            android:text=""
+        />
+        
+        <ImageView 
+            android:contentDescription="@string/pion_rond"
+            android:id="@+id/score_rond"
+        	android:layout_width="20dp"
+        	android:layout_height="20dp"
+        	android:background="@drawable/rond"
+        	android:layout_marginRight="10dp"
+        />
+        
+        <TextView
+            android:id="@+id/score_texte_rond"
+            android:layout_width="wrap_content"
+        	android:layout_height="20dp"
+        	android:layout_marginRight="10dp"
+            android:text="@string/zero"
+        />
+        
+        <TextView
+            android:id="@+id/nameJoueurCroix"
+            android:layout_width="wrap_content"
+        	android:layout_height="20dp"
+        	android:layout_marginRight="10dp"
+            android:text=""
+        />
+        
+        <ImageView
+            android:contentDescription="@string/pion_croix"
+            android:id="@+id/score_croix"
+        	android:layout_width="20dp"
+        	android:layout_height="20dp"
+        	android:layout_marginRight="10dp"
+        	android:background="@drawable/croix"
+        />
+        
+        <TextView
+            android:id="@+id/score_texte_croix"
+            android:layout_width="wrap_content"
+        	android:layout_height="20dp"
+            android:text="@string/zero"
+        />
+    </LinearLayout>
+</LinearLayout>

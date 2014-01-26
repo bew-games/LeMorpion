@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:orientation="vertical">
+   
+	<TextView
+		android:id="@+id/joueur1Name"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/Joueur1Name"/>
+	    
+	<EditText
+		android:id="@+id/joueur1NameEdit"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:hint="@string/Joueur1Name"
+		android:inputType="text"
+		android:maxLength="16"
+		android:layout_marginBottom="50dp"/>
+	 
+	<TextView
+		android:id="@+id/joueur2Name"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/Joueur2Name"/>
+	    
+	<EditText
+		android:id="@+id/joueur2NameEdit"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:hint="@string/Joueur2Name"
+		android:inputType="text"
+		android:maxLength="16"
+		android:layout_marginBottom="50dp"/>
+	
+	<Button
+		android:id="@+id/startButton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/start" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="touchText">Touch to start.</string>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="unJoueur">One Player</string>
+    <string name="deuxJoueurs">Two Players</string>
+    <string name="Options">Options</string>
+    <string name="Recommencer">Restart</string>
+    <string name="Joueur1Name">Player 1</string>
+    <string name="Joueur2Name">Player 2</string>
+	<string name="OrdinateurName">Computer</string>
+	<string name="start">Start !</string>
+	<string name="winText">win the game.</string>
+	<string name="nullText">Draw.</string>
+	<string name="startGame">start.</string>
+	<string name="normal">Medium</string>
+	<string name="difficile">Expert</string>
+	<string name="niveau">Game Level : </string>
+	<string name="zero">0</string>
+	<string name="plateau">Plateau de jeu</string>
+	<string name="pion_croix">Pion Rond</string>
+	<string name="pion_rond">Pion Croix</string>
+</resources>

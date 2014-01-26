@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="touchText">Toucher pour commencer.</string>
+    <string name="app_name">Le Morpion</string>
+    <string name="unJoueur">Un Joueur</string>
+    <string name="deuxJoueurs">Deux Joueurs</string>
+    <string name="Recommencer">Recommencer</string>
+    <string name="Joueur1Name">Joueur 1</string>
+    <string name="Joueur2Name">Joueur 2</string>
+	<string name="OrdinateurName">Ordinateur</string>
+	<string name="start">Commencer !</string>
+	<string name="winText">a gagné la partie.</string>
+	<string name="nullText">Partie nulle.</string>
+	<string name="startGame">commence.</string>
+	<string name="normal">Normal</string>
+	<string name="niveau">Niveau : </string>
+
+</resources>

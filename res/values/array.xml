@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="taille_entries">
+        <item>3 cases</item>
+        <item>4 cases</item>
+        <item>5 cases</item>
+    </string-array>
+    
+    <string-array name="taille_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
