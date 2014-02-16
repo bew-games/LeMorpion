@@ -207,6 +207,8 @@ public class Partie_activity extends Activity {
 						Toast.LENGTH_SHORT).show();
 						
 						restart();
+					} else {
+						m_normal.setChecked(true);
 					}
 				}
 			});
@@ -222,6 +224,8 @@ public class Partie_activity extends Activity {
 						Toast.LENGTH_SHORT).show();
 						
 						restart();
+					} else {
+						m_expert.setChecked(true);
 					}
 				}
 			});
